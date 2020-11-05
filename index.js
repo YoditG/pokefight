@@ -2,7 +2,7 @@ const express = require('express')
 const app = express();
 
 const cors = require('cors');
-const pokeRouter = require('./routes/pokeRouter');
+const pokeRouter = require('./src/routes/pokeRouter');
 
 app.use(cors());
 app.use(express.json());
